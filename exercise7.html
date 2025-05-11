@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+    
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        
+        </head>
+    
+        <style>
+
+            
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                height: 100vh;         
+                margin: 0;
+            }
+            
+            div {
+                height: 100px;
+                width: 100px;
+                background-color: rgb(100, 125, 237);
+            }
+
+
+            @media only screen and ( max-width: 700px) {
+
+                body {
+                    flex-direction: column;
+                }
+            }
+
+
+            @media only screen and ( max-width: 400px) {
+
+                div {
+                    background-color: yellow;
+                }
+            }
+
+            
+   
+        
+        </style>
+
+    <body>
+
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </body>
+
+</html>
